@@ -4,6 +4,10 @@ import (
 	"time"
 )
 
+const (
+	PlatformHackerNews = "Hacker News"
+)
+
 type Post struct {
 	ID         string
 	Date       time.Time
@@ -13,4 +17,5 @@ type Post struct {
 	Content    string
 	HeroImg    string
 	PostLink   string
+	Platform   string
 }
