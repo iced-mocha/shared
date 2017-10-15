@@ -5,8 +5,8 @@ import (
 )
 
 const (
-	PlatformHackerNews = "Hacker News"
-	PlatformReddit     = "Reddit"
+	PlatformHackerNews = "hacker-news"
+	PlatformReddit     = "reddit"
 )
 
 type Post struct {
@@ -19,4 +19,12 @@ type Post struct {
 	HeroImg    string
 	PostLink   string
 	Platform   string
+
+	// Not sure what to do with this one
+	URL string `json:"url"`
+
+	// Reddit Specific fields
+	Subreddit string  `json:"subreddit_name_prefixed"`
+	Score     int     `json:"score"`
+	Created   float32 `json:"created"`
 }
