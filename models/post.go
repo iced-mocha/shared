@@ -6,7 +6,7 @@ import (
 
 const (
 	PlatformHackerNews = "Hacker News"
-	PlatformReddit = "Reddit"
+	PlatformReddit     = "Reddit"
 )
 
 type Post struct {
