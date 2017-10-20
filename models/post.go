@@ -7,6 +7,7 @@ import (
 const (
 	PlatformHackerNews = "hacker-news"
 	PlatformReddit     = "reddit"
+	PlatformFacebook   = "facebook"
 )
 
 type Post struct {
