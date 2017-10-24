@@ -6,6 +6,7 @@ import (
 
 const (
 	PlatformHackerNews = "hacker-news"
+	PlatformGoogleNews = "google-news"
 	PlatformReddit     = "reddit"
 	PlatformFacebook   = "facebook"
 )
