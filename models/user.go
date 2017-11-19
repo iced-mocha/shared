@@ -11,4 +11,6 @@ type User struct {
 	RedditUsername    string `json:"reddit-username"`
 	RedditAuthToken   string `json:"reddit-auth-token"`
 	RedditTokenExpiry int64  `json:"reddit-token-expiry"`
+	FacebookUsername  string `json:"facebook-username"`
+	FacebookAuthToken string `json:"facebook-auth-token"`
 }
