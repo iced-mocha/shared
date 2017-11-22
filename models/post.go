@@ -19,6 +19,7 @@ type Post struct {
 	Title      string
 	Content    string
 	HeroImg    string
+	Video      string
 	PostLink   string
 	Platform   string
 
