@@ -27,7 +27,7 @@ type Post struct {
 	URL string `json:"url"`
 
 	// Reddit Specific fields
-	Subreddit string  `json:"subreddit_name_prefixed"`
+	Subreddit string  `json:"subreddit"`
 	Score     int     `json:"score"`
 	Created   float32 `json:"created"`
 }
