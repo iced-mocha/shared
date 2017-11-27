@@ -13,4 +13,8 @@ type User struct {
 	RedditTokenExpiry int64  `json:"reddit-token-expiry"`
 	FacebookUsername  string `json:"facebook-username"`
 	FacebookAuthToken string `json:"facebook-auth-token"`
+	RedditWeight      int    `json:"reddit-weight"`
+	FacebookWeight    int    `json:"facebook-weight"`
+	HackerNewsWeight  int    `json:"hacker-news-weight"`
+	GoogleNewsWeight  int    `json:"google-news-weight"`
 }
