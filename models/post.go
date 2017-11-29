@@ -20,6 +20,7 @@ type Post struct {
 	Content    string
 	HeroImg    string
 	Video      string
+	IsVideo    bool
 	PostLink   string
 	Platform   string
 
