@@ -2,8 +2,8 @@ package models
 
 // Used for unmarshaling weightings for different clients
 type Weights struct {
-	Reddit     int `json:"reddit"`
-	Facebook   int `json:"facebook"`
-	HackerNews int `json:"hacker-news"`
-	GoogleNews int `json:"google-news"`
+	Reddit     float64 `json:"reddit"`
+	Facebook   float64 `json:"facebook"`
+	HackerNews float64 `json:"hacker-news"`
+	GoogleNews float64 `json:"google-news"`
 }
