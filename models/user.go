@@ -8,6 +8,9 @@ type User struct {
 
 	Username          string  `json:"username"`
 	Password          string  `json:"password"`
+	TwitterUsername   string  `json:"twitter-username"`
+	TwitterAuthToken  string  `json:"twitter-auth-token"`
+	TwitterSecret     string  `json:"twitter-secret"`
 	RedditUsername    string  `json:"reddit-username"`
 	RedditAuthToken   string  `json:"reddit-auth-token"`
 	RedditTokenExpiry int64   `json:"reddit-token-expiry"`
