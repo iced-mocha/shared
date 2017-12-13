@@ -9,6 +9,7 @@ const (
 	PlatformGoogleNews = "google-news"
 	PlatformReddit     = "reddit"
 	PlatformFacebook   = "facebook"
+	PlatformRSS        = "rss"
 )
 
 type Post struct {
