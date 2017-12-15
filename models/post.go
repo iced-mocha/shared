@@ -25,7 +25,8 @@ type Post struct {
 	Platform    string
 	IsVideo     bool
 	Date        time.Time
-	Retweets    int
+	Retweets    int `json:"retweets"`
+	Favourites  int `json:"favourites"`
 
 	// Not sure what to do with this one
 	URL string `json:"url"`
