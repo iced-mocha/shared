@@ -29,7 +29,8 @@ type Post struct {
 	Favourites  int `json:"favourites"`
 
 	// Not sure what to do with this one
-	URL string `json:"url"`
+	URL  string `json:"url"`
+	Meta string `json:"meta"`
 
 	// Reddit Specific fields
 	Subreddit string  `json:"subreddit"`
