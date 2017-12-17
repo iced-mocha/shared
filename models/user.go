@@ -17,6 +17,8 @@ type User struct {
 	RedditTokenExpiry  int64               `json:"reddit-token-expiry"`
 	FacebookUsername   string              `json:"facebook-username"`
 	FacebookAuthToken  string              `json:"facebook-auth-token"`
+	InstagramUsername  string              `json:"instagram-username"`
+	InstagramAuthToken string              `json:"instagram-auth-token"`
 	RssGroups          map[string][]string `json:"rss-groups"`
 	PostWeights        Weights             `json:"post-weights"`
 }

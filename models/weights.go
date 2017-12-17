@@ -7,5 +7,6 @@ type Weights struct {
 	HackerNews float64            `json:"hacker-news"`
 	GoogleNews float64            `json:"google-news"`
 	Twitter    float64            `json:"twitter"`
+	Instagram  float64            `json:"instagram"`
 	RSS        map[string]float64 `json:"rss"`
 }

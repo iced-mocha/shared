@@ -25,8 +25,10 @@ type Post struct {
 	Platform    string
 	IsVideo     bool
 	Date        time.Time
-	Retweets    int `json:"retweets"`
-	Favourites  int `json:"favourites"`
+
+	// Note: eventually these will be moved to the meta field to keep this struct more general
+	Retweets   int `json:"retweets"`
+	Favourites int `json:"favourites"`
 
 	// Not sure what to do with this one
 	URL  string `json:"url"`
